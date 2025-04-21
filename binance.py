@@ -33,8 +33,8 @@ def check_pay(transaction) :
     # Paramètres de la requête
     params = {
         'timestamp': int(time.time() * 1000),
-        'startTime': start_time,  # Date de début
-        'endTime': end_time,  # Date de fin
+        #'startTime': start_time,  # Date de début
+        #'endTime': end_time,  # Date de fin
     }
 
     # Créer la signature
